@@ -1,17 +1,121 @@
 /*=== Base Styles ===*/
+
+
+
 body {
     font-family: 'Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+    margin: 80px 24px;
 }
-/*=== Header Section ===*/
+
+/*=== Heading Section ===*/
+.heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.heading p {
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    color: #927B91;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 /*=== Rating Section ===*/
+.ratings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.rating-box {
+    background-color: #F7F2F7;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0;
+    margin-bottom: 16px;
+}
+
+.rating-stars {
+    display: flex;
+    justify-content: space-between;
+    width: 118px;
+}
+
+.ratings .rating-box p {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+}
 
 /*=== Testimonials Section ===*/
+.testimonials {
+    display: flex;
+    flex-direction: column;
+}
+
+.test-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #512051;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 32px;
+}
+
+.test-img {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials img {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 23px;
+}
+
+.test-card .test-name {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.test-card .highlight {
+    color: #EE69A4;
+    line-height: 15px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.test-card .test-comment {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 500;
+}
 
 /*===Footer Styles ===*/
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 15px;
 }
 
 .attribution a {
