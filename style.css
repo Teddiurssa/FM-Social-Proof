@@ -8,6 +8,9 @@ html {
 body {
     font-family: 'Spartan', sans-serif;
     margin: 80px 24px;
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+   
 }
 
 /*=== Heading Section ===*/
