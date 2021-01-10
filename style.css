@@ -10,7 +10,7 @@ body {
     margin: 80px 24px;
     color: hsl(300, 43%, 22%);
     font-size: 15px;
-   
+
 }
 
 /*=== Heading Section ===*/
@@ -34,7 +34,7 @@ h1 {
     line-height: 25px;
     letter-spacing: -0.5px;
     color: #927B91;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     margin: 0;
 }
 
@@ -85,12 +85,13 @@ h1 {
     color: #ffffff;
     border-radius: 8px;
     margin-bottom: 16px;
-    padding: 32px;
+    padding: 40px 32px;
 }
 
 .test-img {
     display: flex;
     align-items: center;
+    margin-bottom: 26px;
 }
 
 .testimonials img {
@@ -99,10 +100,13 @@ h1 {
     margin-right: 23px;
 }
 
+
 .test-card .test-name {
     font-size: 13px;
     font-weight: 700;
     line-height: 15px;
+    margin-bottom: 5px;
+    margin-top: 0;
 }
 
 .test-card .highlight {
@@ -110,12 +114,15 @@ h1 {
     line-height: 15px;
     font-size: 13px;
     font-weight: 400;
+    margin: 0;
 }
 
 .test-card .test-comment {
     font-size: 13px;
     line-height: 22px;
     font-weight: 500;
+    margin: 0;
+    letter-spacing: -0.232143px;
 }
 
 /*===Footer Styles ===*/
@@ -156,6 +163,10 @@ h1 {
         width: 40%;
         text-align: left;
         margin: 0;
+    }
+
+    .heading p {
+        text-shadow: none;
     }
 
     h1 {
